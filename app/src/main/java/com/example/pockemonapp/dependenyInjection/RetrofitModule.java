@@ -13,7 +13,7 @@ import hu.akarnokd.rxjava3.retrofit.RxJava3CallAdapterFactory;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-@Module  //cause we not write the class of retrofit or w haven'tcontrol; on it
+@Module  //cause we not write the class of retrofit or w haven't control; on it
 @InstallIn(ApplicationComponent.class)  // to use on all application
 public class RetrofitModule {
 
