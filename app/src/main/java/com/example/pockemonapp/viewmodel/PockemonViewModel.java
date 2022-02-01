@@ -30,10 +30,10 @@ public class PockemonViewModel extends ViewModel {
         this.repository = repository;
     }
 
-    public MutableLiveData<ArrayList<Pockemon>> PockemonList;
+    public MutableLiveData<ArrayList<Pockemon>> PockemonList=new MutableLiveData<>();
 
 
-    private void getPockemon() {
+    public void getPockemon() {
 
         repository.getPOckemons()
                 .subscribeOn(Schedulers.io())
@@ -46,7 +46,7 @@ public class PockemonViewModel extends ViewModel {
                             String url = pockemon.getUrl();
                             String[] pockemonIndex = url.split("/");
                             pockemon.setUrl("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
-                                    + pockemonIndex[pockemonIndex.length - 1] + "png");
+                                    + pockemonIndex[pockemonIndex.length - 1] + ".png");
 
                         }
                         return list;
