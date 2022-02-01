@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FavActivity">
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="409dp"
-        android:id="@+id/recycler"
+        android:id="@+id/recycler_fav"
         android:layout_height="729dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
@@ -24,13 +24,14 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/to_fav_btn"
+        android:id="@+id/to_home_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
-        android:text="goto fav"
-        app:layout_constraintBottom_toBottomOf="@+id/recycler"
+        android:text="goto home"
+        app:layout_constraintBottom_toBottomOf="@+id/recycler_fav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
