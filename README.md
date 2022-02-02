@@ -1,6 +1,6 @@
 
 
-displaying images for pockemmon and Allow user to make Favourit DataBase to save/delete in/from it his favourit pokemons .
+displaying images for pokemon and Allowing the user to make Favorite DataBase to save/delete in/from it his favorite pokemon.
 <br/>Tools:
 <br/>-daggerhilt,
 <br/>-Retrofit
