@@ -12,4 +12,8 @@ displaying images for pockemmon and Allow user to make Favourit DataBase to save
 -RecyclerView
 
 # PokemonApp
-https://user-images.githubusercontent.com/44526915/152081459-ca6cd263-89b2-4b67-b819-78f807ac4652.mp4
+
+
+https://user-images.githubusercontent.com/44526915/152082803-9c318551-90ce-41ac-bdfc-d3a91f751977.mp4
+
+
