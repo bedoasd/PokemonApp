@@ -32,8 +32,12 @@ public class PockemonViewModel extends ViewModel {
     }
 
     public MutableLiveData<ArrayList<Pockemon>> PockemonList = new MutableLiveData<>();
+
     public LiveData<List<Pockemon>> favList = null;
 
+    public LiveData<List<Pockemon>> getFavList() {
+        return favList;
+    }
 
     public void getPockemon() {
 

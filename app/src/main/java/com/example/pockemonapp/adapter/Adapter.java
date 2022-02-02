@@ -55,6 +55,12 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         notifyDataSetChanged();
     }
 
+    public Pockemon getPockemonAt(int position){
+        return pockemonList.get(position);
+
+    }
+
+
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView pockemontitle;
         ImageView pockemonImage;

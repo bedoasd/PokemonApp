@@ -9,7 +9,7 @@ import com.example.pockemonapp.model.Pockemon;
 import java.util.List;
 
 @androidx.room.Dao
-public interface PockemonDao {   //the opertions
+public interface PockemonDao {   //the operations
 
 
     @Insert
